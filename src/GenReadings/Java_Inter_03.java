@@ -1,3 +1,5 @@
+package GenReadings;
+
 public class Java_Inter_03 {
     public static void main(String[] args){
         System.out.println(fact(10));

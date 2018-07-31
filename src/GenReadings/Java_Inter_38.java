@@ -1,3 +1,5 @@
+package GenReadings;
+
 import java.io.*;
 import java.net.*;
 import java.awt.*;
@@ -44,7 +46,7 @@ public class Server extends JFrame {
                 try{
                     //Trying to connect and have conversation
                 }catch (EOFException eofException){
-                    showMessage("\n Server ended the connection");
+                    showMessage("\n GenReadings.Server ended the connection");
                 }finally {
                     closeCrap();
                 }

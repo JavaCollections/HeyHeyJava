@@ -1,3 +1,5 @@
+package GenReadings;
+
 import java.util.*
 
 public class Java_Inter_04 {
