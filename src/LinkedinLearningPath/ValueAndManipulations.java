@@ -11,7 +11,6 @@ public class ValueAndManipulations {
 
     }
 
-
     public static void primitiveDataTypes(){
         int myint = 5;
         double mydouble = 156.5;
@@ -58,14 +57,9 @@ public class ValueAndManipulations {
         String stringValue = Double.toString(doubleValue);
         System.out.println("String Value " + stringValue);
 
-        BigDecimal bigValue = new BigDecimal(stringValue);
-        BigDecimal bigSum = bigValue.add(bigValue).add(bigValue);
-
-        double dsum = bigSum.doubleValue();
-        System.out.println("Value Now After Conversion" + dsum);
-
-
     }
+
+    public static void
 
 
 }
