@@ -1,7 +1,7 @@
 package LinkedinLearningPath_Learn;
 
 public class Basics_07_StringComparisons {
-    public static void main(){
+    public static void main(String[] Ar){
         String s1 = "Hello!";
         String s2 = "Hello!";
 
@@ -27,7 +27,7 @@ public class Basics_07_StringComparisons {
             System.out.println("They dont match");
         }
 
-        if (s3.equalsIgnoreCase(s4) {
+        if (s3.equalsIgnoreCase(s4)){
             System.out.println("They Match");
         } else {
             System.out.println("They dont match");
