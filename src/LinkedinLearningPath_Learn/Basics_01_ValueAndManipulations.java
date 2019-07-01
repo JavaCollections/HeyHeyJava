@@ -1,8 +1,6 @@
-package LinkedinLearningPath;
+package LinkedinLearningPath_Learn;
 
-import java.math.BigDecimal;
-
-public class ValueAndManipulations {
+public class Basics_01_ValueAndManipulations {
 
     public static void main(String[] Args){
         System.out.println("Contains the Basic Concepts");
@@ -13,6 +11,7 @@ public class ValueAndManipulations {
 
     public static void primitiveDataTypes(){
         int myint = 5;
+        char mychar = 'a';
         double mydouble = 156.5;
         float myfloat = 10;
         String myString = "Praveen George";
@@ -36,17 +35,17 @@ public class ValueAndManipulations {
         System.out.println("IntValue " + intValue);
         System.out.println("FloatValue " + floatValue);
         System.out.println("String Value " + stringvalue);
-/*
-        TODO Research about the MAX Value setting Helper class for integers
-        MAX VALUE
-        Byte b = new Byte(127);
-        b.MAX_VALUE() = 127;
 
-        Integer i = new Integer(10);
-        i.MAX_VALUE() = 10;
-        i = 11;
-        System.out.println("Max Value Check " + i);
-        */
+//        TODO Research about the MAX Value setting Helper class for integers
+//        MAX VALUE
+//        Byte b = new Byte(127);
+//        b.MAX_VALUE() = 127;
+//
+//        Integer i = new Integer(10);
+//        i.MAX_VALUE() = 10;
+//        i = 11;
+//        System.out.println("Max Value Check " + i);
+
 
     }
 
