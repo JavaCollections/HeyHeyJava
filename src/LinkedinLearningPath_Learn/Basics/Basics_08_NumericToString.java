@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

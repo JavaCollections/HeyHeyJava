@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics;
 
 public class Basics_11_Conditionals_01_Switch {
 

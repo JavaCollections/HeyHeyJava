@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics;
 
 public class Basics_10_Conditionals_00_IFElse {
 

@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics_OOPS.Encapsulation;
 
 public class Basics_OOPS_00_Encapsulation {
 

@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics;
 
 public class Basics_03_BooleanVariable {
 

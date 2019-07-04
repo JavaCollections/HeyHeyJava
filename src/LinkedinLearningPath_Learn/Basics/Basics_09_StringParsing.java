@@ -1,4 +1,4 @@
-package LinkedinLearningPath_Learn;
+package LinkedinLearningPath_Learn.Basics;
 
 public class Basics_09_StringParsing {
     public static void main(String[] Args){
