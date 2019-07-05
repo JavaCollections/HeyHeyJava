@@ -1,6 +1,12 @@
-package LinkedinLearningPath_Learn.Basics_OOPS.InheritanceAndPolymorphism.IP_Models;
+package LinkedinLearningPath_Learn.Basics_Data_Collection.M_DataCollection;
 
-public class M_01_ClothingItem {
+public class M_00_Arrays_ClothingItems {
+
+    public M_00_Arrays_ClothingItems(String type, String size, double price) {
+        this.type = type;
+        this.size = size;
+        this.price = price;
+    }
 
     // VARIABLES
     private String type;
@@ -8,23 +14,15 @@ public class M_01_ClothingItem {
     private double price;
 
     // TO STRING METHODS
-    // CODE CAn BE IMPROVED FOR THE CASTING
-    // IMPROVEMENT - TO pull the class
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{" +
+        return "M_00_ClothingItem{" +
                 "type='" + type + '\'' +
                 ", size='" + size + '\'' +
                 ", price=" + price +
                 '}';
     }
 
-    // CONSTRUCTOR
-    public M_01_ClothingItem(String type, String size, double price) {
-        this.type = type;
-        this.size = size;
-        this.price = price;
-    }
 
     // GETTER SETTER METHODS
     public String getType() {
@@ -51,3 +49,5 @@ public class M_01_ClothingItem {
         this.price = price;
     }
 }
+
+

@@ -1,6 +1,6 @@
 package LinkedinLearningPath_Learn.Basics_OOPS.InheritanceAndPolymorphism.IP_Models;
 
-public class M_01_ClothingItem {
+public class M_02_ClothingItem implements M_02_Product_Interface {
 
     // VARIABLES
     private String type;
@@ -20,7 +20,7 @@ public class M_01_ClothingItem {
     }
 
     // CONSTRUCTOR
-    public M_01_ClothingItem(String type, String size, double price) {
+    public M_02_ClothingItem(String type, String size, double price) {
         this.type = type;
         this.size = size;
         this.price = price;

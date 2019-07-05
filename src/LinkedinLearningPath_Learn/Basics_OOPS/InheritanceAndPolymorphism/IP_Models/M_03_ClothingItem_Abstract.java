@@ -1,6 +1,6 @@
 package LinkedinLearningPath_Learn.Basics_OOPS.InheritanceAndPolymorphism.IP_Models;
 
-public class M_01_ClothingItem {
+public  abstract class M_03_ClothingItem_Abstract implements M_03_Product_Interface {
 
     // VARIABLES
     private String type;
@@ -20,7 +20,7 @@ public class M_01_ClothingItem {
     }
 
     // CONSTRUCTOR
-    public M_01_ClothingItem(String type, String size, double price) {
+    public M_03_ClothingItem_Abstract(String type, String size, double price) {
         this.type = type;
         this.size = size;
         this.price = price;
@@ -43,11 +43,12 @@ public class M_01_ClothingItem {
         this.size = size;
     }
 
-    public double getPrice() {
-        return price;
-    }
+    public abstract double getPrice();
+//
+//    GETTING RID OF IT AS ITS GOING TO BE ABSTRACT
+//    public void setPrice(double price) {
+//        this.price = price;
+//    }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+
 }
