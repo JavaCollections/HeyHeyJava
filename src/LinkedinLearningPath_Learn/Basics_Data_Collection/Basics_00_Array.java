@@ -2,6 +2,8 @@ package LinkedinLearningPath_Learn.Basics_Data_Collection;
 
 import LinkedinLearningPath_Learn.Basics_Data_Collection.M_DataCollection.M_00_Arrays_ClothingItems;
 
+import java.util.Arrays;
+
 public class Basics_00_Array {
 
     public static void main(String[] Args) {
@@ -34,6 +36,17 @@ public class Basics_00_Array {
         }
 
 //        COPY OF AN ARRAY
+        System.out.println("Copied Array");
+        M_00_Arrays_ClothingItems[] copied = Arrays.copyOf(items, items.length);
+        for (M_00_Arrays_ClothingItems itemms: copied
+             ) {
+            System.out.println(itemms);
+        }
+
+//        MANIPULATION OF COPIED ARRAYS
+        items[0].setPrice(5);
+        System.out.println(items[0]);
+        System.out.println(copied[0]);
 
 
     }
