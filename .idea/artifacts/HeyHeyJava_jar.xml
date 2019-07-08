@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HeyHeyJava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HeyHeyJava_jar</output-path>
+    <root id="archive" name="HeyHeyJava.jar">
+      <element id="module-output" name="HeyHeyJava" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libraries/gson-2.8.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeClinic_LinkedinLearning/CodeClinic_LinkedinLearning.iml" filepath="$PROJECT_DIR$/CodeClinic_LinkedinLearning/CodeClinic_LinkedinLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/HeyHeyJava.iml" filepath="$PROJECT_DIR$/HeyHeyJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgrammingFoundations_00_Algorithms/ProgrammingFoundations_00_Algorithms.iml" filepath="$PROJECT_DIR$/ProgrammingFoundations_00_Algorithms/ProgrammingFoundations_00_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgrammingFoundations_01_ObjectOrientedDesign/ProgrammingFoundations_01_ObjectOrientedDesign.iml" filepath="$PROJECT_DIR$/ProgrammingFoundations_01_ObjectOrientedDesign/ProgrammingFoundations_01_ObjectOrientedDesign.iml" />
     </modules>
   </component>
 </project>
